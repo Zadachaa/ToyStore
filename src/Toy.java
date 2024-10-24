@@ -21,4 +21,8 @@ public class Toy {
                 ", weight=" + weight +
                 '}';
     }
+
+    public String toCsvString() {
+        return id + "," + name + "," + weight;
+    }
 }
